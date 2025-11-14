@@ -1,0 +1,52 @@
+{
+    "general": {
+        "Unidades": 0,
+        "Profundidad": 10006.6,
+        "Dti": 2.992,
+        "Rugosidad": 0.001,
+        "Pcabezal": 278.0,
+        "Tcabezal": 90.248,
+        "N_Segmentos": 50
+    },
+    "fluidos": {
+        "API": 35.0,
+        "Sg": 0.645,
+        "Sw": 1.02,
+        "Porcentaje_Agua": 0.0,
+        "RGL": 800.0,
+        "YCO2": 0.0,
+        "YH2s": 0.0,
+        "YN2": 0.0
+    },
+    "yacimiento": {
+        "Tfondo": 188.78,
+        "Pws": 3000.0,
+        "k": 50,
+        "re": 1968,
+        "S": 0,
+        "h": 49.2,
+        "rw": 0.328,
+        "Bo_input": 1.2,
+        "mu_o_input": 1.0
+    },
+    "calibracion": {
+        "Ql_cal": 1000,
+        "Pwf_cal": 2500
+    },
+    "modelo": {
+        "IPR_Tipo": 2,
+        "h_IPR_Automatico": 0,
+        "IPR_n": 0.615,
+        "ff": 1.0,
+        "hl": 1.0,
+        "h_Ps_sanjari": 1,
+        "h_rb_gen_visc": 1,
+        
+        "vlp_sensibilidad": {
+            "Hagedorn_Brown": 1,
+            "Beggs_Brill": 1,
+            "Ansari": 1,
+            "Gray": 1
+        }
+    }
+}
